@@ -18,8 +18,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- bash: 
-    for i in {1..10}
+- bash: | 
+    for i in {1..100000}
     do
       echo $i
     done
