@@ -19,6 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 
 - bash: 
-    for i in {1..10} do
+    for i in {1..10}
+    do
       echo $i
     done
