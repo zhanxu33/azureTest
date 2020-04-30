@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 
 - bash: | 
-    for i in {1..5}
+    for i in {1..7}
     do
       echo '<a href="www.baidu.com">asds</a>'
     done
